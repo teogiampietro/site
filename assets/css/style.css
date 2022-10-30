@@ -1,0 +1,27 @@
+/* Tag */
+section h1, section h5{
+    text-align: center;    
+}
+
+/* Id */
+#root{
+    margin-top: 2rem;
+}
+
+/* Class*/
+.head_container{
+    text-align: center;
+}
+.about_container{
+    grid-gap: 15%;
+    display: grid;
+    gap: 15%;
+    grid-template-columns: 35% 50%;
+}
+
+.cards_container{
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3,1fr);
+}
