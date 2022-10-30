@@ -7,9 +7,21 @@ section h1, section h5{
 #root{
     margin-top: 2rem;
 }
+#experiencie{
+    margin-top: 2rem;
+}
 
 /* Class*/
 .head_container{
+    text-align: center;
+}
+.experience_container{
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.article_detail{
     text-align: center;
 }
 .about_container{
