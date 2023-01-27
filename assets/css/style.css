@@ -1,39 +1,49 @@
-/* Tag */
-section h1, section h5{
-    text-align: center;    
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-
-/* Id */
-#root{
-    margin-top: 2rem;
+a:link { 
+    text-decoration: none;
 }
-#experiencie{
-    margin-top: 2rem;
+a:visited {
+    text-decoration: none;
 }
-
-/* Class*/
-.head_container{
+body, html{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.profile_container{
     text-align: center;
 }
-.experience_container{
-    grid-gap: 1.5rem;
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(2,1fr);
+.profile_data{
+    margin-top: 3rem;
 }
-.article_detail{
-    text-align: center;
+.pi-social{
+    justify-content: center;  
+    grid-template-columns: 4rem 4rem 4rem; 
+    margin-top: 2rem;
+    
 }
-.about_container{
-    grid-gap: 15%;
-    display: grid;
-    gap: 15%;
-    grid-template-columns: 35% 50%;
+.profile_info{
+    justify-content: center;
+    grid-template-columns: 6rem 6rem 6rem;
+}
+.profie_buttons{
+    justify-content: center;
+    grid-template-columns: 10rem 3rem 3rem;
+}
+.grid{
+    display: grid;   
+    gap: 1.5rem; 
 }
 
-.cards_container{
-    grid-gap: 1.5rem;
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(3,1fr);
+.icon{
+    font-size: 2rem; 
+    color: grey;
+}
+.button{
+    display: flex;
+    align-items: center;
 }
