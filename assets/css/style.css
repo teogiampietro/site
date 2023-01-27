@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 a:link { 
     text-decoration: none;
 }
@@ -23,8 +24,8 @@ body, html{
 .pi-social{
     justify-content: center;  
     grid-template-columns: 4rem 4rem 4rem; 
-    margin-top: 2rem;
-    
+    margin-top: 2rem;  
+    padding: 0;
 }
 .profile_info{
     justify-content: center;
