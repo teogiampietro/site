@@ -49,7 +49,6 @@ body, html{
 }
 /*#endregion profile_info*/
 
-
 /*#region profie_buttons*/
 .profie_buttons{
     justify-content: center;
@@ -62,7 +61,28 @@ body, html{
 .btn:hover > .icon-btn {color: white;}
 /*#endregion profie_buttons*/
 
-
+/*#region skills*/
+.skills{
+    margin-top: 2rem;
+    text-align: center;   
+}
+.skills_area{
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: start;
+    grid-template-columns:10rem 10rem 10rem;
+    gap: 4rem;
+}
+.skill_data{
+    display: flex;
+    justify-content: flex-start;
+    height: 2.5rem;
+    font-size: 1.2rem;
+}
+.skill_name{
+    margin-left: 0.5rem;
+}
+/*#endregion skills*/
 
 
 
