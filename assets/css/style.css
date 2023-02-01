@@ -19,6 +19,13 @@ body, html{
 .profile_container{
     text-align: center;
 }
+.grid{
+    display: grid;   
+    gap: 1.5rem; 
+}
+
+
+/*#region profile_data*/
 .profile_data{
     margin-top: 3rem;
 }
@@ -28,30 +35,38 @@ body, html{
     margin-top: 2rem;  
     padding: 0;
 }
+.icon-social{
+    font-size: 2rem; 
+    color: grey;
+}
+
+/*#endregion profile_data*/
+
+/*#region profile_info*/
 .profile_info{
     justify-content: center;
     grid-template-columns: 6rem 6rem 6rem;
 }
+/*#endregion profile_info*/
+
+
+/*#region profie_buttons*/
 .profie_buttons{
     justify-content: center;
     grid-template-columns: 10rem 3rem 3rem;
-}
-.grid{
-    display: grid;   
-    gap: 1.5rem; 
-}
-
-.icon-social{
-    font-size: 2rem; 
-    color: grey;
 }
 .icon-btn{
     font-size: 1.5rem; 
     color: grey;
 }
-.small-btn{
-    color: white;
-    background-color: grey;
-    padding: 0.1rem 0.5rem;
-    border-radius: 5px;
-}
+.btn:hover > .icon-btn {color: white;}
+/*#endregion profie_buttons*/
+
+
+
+
+
+
+
+
+
