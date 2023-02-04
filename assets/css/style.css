@@ -30,10 +30,9 @@ body, html{
     gap: 1.5rem; 
 }
 
-
 /*#region profile_data*/
 .profile_data{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .pi-social{
     justify-content: center;  
