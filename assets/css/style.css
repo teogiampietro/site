@@ -153,8 +153,8 @@ i{
     
     border-radius: 1rem;
     padding: 20px;
-    background: rgba(50,48,48,.68);
-    backdrop-filter: blur(2.5px);
+    background: rgba(50, 48, 48, 0.75);
+    backdrop-filter: blur(5px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.059);
 
     display: grid;
@@ -172,10 +172,10 @@ i{
     color: var(--text-color-white); 
     background-color: var(--main-color);
 }
-.svg_icon{
-    mask-image: url('../img/blazor.svg');
-    width: 6rem;
-    height: 6rem;
+.colored:before{
+    color: var(--text-color-white);
+    text-shadow: 0 4px 30px rgb(0, 0, 0);
+    font-size: 1.8rem; 
 }
 /*#endregion proyects*/
 
