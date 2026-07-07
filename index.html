@@ -1,199 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <title>Teo Giampietro</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teo Giampietro — Senior .NET Developer</title>
+  <meta name="description" content="Backend & full-stack engineer with 7+ years building scalable .NET systems across fintech, healthcare & logistics." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'light' || saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
 </head>
 
 <body>
-    <header>
-        <div class="profile_container grid">
-            <div class="profile_data">
-                <h1>Teo Giampietro</h1>
-                <h3>.NET Developer</h3>
-                <ul class="pi-social grid">
-                    <a href="https://www.linkedin.com/in/teogiampietro/" target="_blank">
-                        <i class="bi bi-linkedin icon-social"></i>
-                    </a>
-                    <a href="https://github.com/teogiampietro" target="_blank">
-                        <i class="bi bi-github icon-social"></i>
-                    </a>
-                    <a href="mailto:teogiampietro@gmail.com">
-                        <i class="bi bi-envelope icon-social"></i>
-                    </a>
-                </ul>
-            </div>
-            <div class="profile_info grid">
-                <div class="pi-group">
-                    <h3>+5</h3>
-                    <p>Years of experience</p>
-                </div>
-                <div class="pi-group">
-                    <h3>+5</h3>
-                    <p>Completed projects</p>
-                </div>
-                <div class="pi-group">
-                    <h3>+4</h3>
-                    <p>Satisfied customers</p>
-                </div>
-            </div>
-            <div class="profie_buttons grid">
-                <a download href="https://www.canva.com/design/DAFcE_1M-nA/uoqDriVWLL8ouhOPZLqOYA/view" target="_blank"
-                    class="button">
-                    Download CV
-                    <i class="bi bi-download"></i>
-                </a>
-                <div class="btn-profile">
-                    <a href="https://api.whatsapp.com/send?phone=543469694830" target="_blank" class="">
-                        <i class="bi bi-whatsapp icon-btn"></i>
-                    </a>
-                </div>
-                <div class="btn-profile">
-                    <a href="https://discord.com/users/Herotes#3384" target="_blank" class="">
-                        <i class="bi bi-discord icon-btn"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="skills">
-            <h3>Skills</h3>
-            <div class="skills_area">
-                <div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">C#</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">.NET Core</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">EF Core</span>
-                    </div>
-                </div>
-                <div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">Unit Tests</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">Linq</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">SQL Server</span>
-                    </div>
-                </div>
-                <div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">Azure</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">DevOps</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">Microservices</span>
-                    </div>
-                </div>
-                <div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">HTML-CSS</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">Blazor</span>
-                    </div>
-                    <div class="skill_data">
-                        <i class="bi bi-check-circle"> </i>
-                        <span class="skill_name">GIT</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="proyects">
-            <div class="proyect_header">
-                <h3>Proyects</h3>
-            </div>
-            <div class="proyects_container">
-                <article class="proyect_card">
-                    <img src="./assets/img/ezStock.png" alt="proyect ezStock image" />
-                    <div class="proyect_modal">
-                        <div>
-                            <h4 class="proyect_title">EzStock</h4>
-                            <a href="https://github.com/teogiampietro/EzStock" target="_blank" class="proyect_button">
-                                <i class="bi bi-link-45deg"></i>
-                            </a>
-                            <i class="devicon-dotnetcore-plain colored"></i>
-                            <i class="devicon-csharp-plain colored"></i>
-                            <i class="devicon-microsoftsqlserver-plain colored"></i>
-                            <i class="devicon-nuget-original colored"></i>
-                        </div>
-                    </div>
-                </article>
-                <article class="proyect_card">
-                    <img src="./assets/img/secureSilo.png" alt="proyect secureSilo image" />
-                    <div class="proyect_modal">
-                        <div>
-                            <h4 class="proyect_title">SecureSilo</h4>
-                            <a href="https://github.com/teogiampietro/SecureSilo" target="_blank"
-                                class="proyect_button"> <i class="bi bi-link-45deg"></i> </a>
-                            <i class="devicon-dotnetcore-plain colored"></i>
-                            <i class="devicon-csharp-plain colored"></i>
-                            <i class="devicon-bootstrap-plain colored"></i>
-                            <i class="devicon-html5-plain colored"></i>
-                        </div>
-                    </div>
-                </article>
-                <article class="proyect_card">
-                    <img src="./assets/img/factorySys.png" alt="proyect secureSilo image" />
-                    <div class="proyect_modal">
-                        <div>
-                            <h4 class="proyect_title">FactorySys</h4>
-                            <a href="https://github.com/teogiampietro/FactorySys" target="_blank"
-                                class="proyect_button"> <i class="bi bi-link-45deg"></i> </a>
-                            <i class="devicon-visualstudio-plain colored"></i>
-                            <i class="devicon-csharp-plain colored"></i>
-                            <i class="devicon-microsoftsqlserver-plain colored"></i>
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a href="#top" class="brand">
+        <span class="logo-mark">TG</span>
+        <span class="brand-name">teo.giampietro</span>
+      </a>
 
-                        </div>
-                    </div>
-                </article>
-                <article class="proyect_card">
-                    <img src="./assets/img/endpointCreator.jpg" alt="proyect secureSilo image" />
-                    <div class="proyect_modal">
-                        <div>
-                            <h4 class="proyect_title">EndpointCreator</h4>
-                            <a href="https://github.com/teogiampietro/EndpointTemplateCreator" target="_blank"
-                                class="proyect_button"> <i class="bi bi-link-45deg"></i> </a>
-                            <i class="devicon-visualstudio-plain colored"></i>
-                            <i class="devicon-csharp-plain colored"></i>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <i class="svg-icon"></i>
-    </main>
+      <nav class="nav-links" id="navLinks">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-    <footer class="footer_container">
-        <span>© Teo Giampietro. All rights reserved.</span>
-    </footer>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="./assets/cv/TEO_GIAMPIETRO_CV.pdf" download class="nav-cv">Download CV ↓</a>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="status-badge"><span class="status-dot"></span>AVAILABLE FOR WORK</div>
+        <h1 class="hero-title">Teo Giampietro</h1>
+        <div class="hero-role">Senior .NET Developer</div>
+        <p class="hero-desc">Backend &amp; full-stack engineer with 7+ years building scalable .NET systems across
+          <span class="hero-desc-highlight">fintech, healthcare &amp; logistics</span> — REST APIs, microservices, and
+          cloud on Azure &amp; AWS.</p>
+        <div class="hero-actions">
+          <a href="./assets/cv/TEO_GIAMPIETRO_CV.pdf" download class="btn btn-primary">Download CV ↓</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/teogiampietro/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/teogiampietro" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:teogiampietro@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <div class="portrait-frame">
+          <img src="./assets/img/portrait.png" alt="Teo Giampietro portrait" loading="lazy" class="portrait-frame">
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section class="stats">
+      <div class="stat">
+        <div class="stat-number">7+</div>
+        <div class="stat-label">years of experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">6</div>
+        <div class="stat-label">shipped projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">6</div>
+        <div class="stat-label">certifications</div>
+      </div>
+    </section>
+
+    <!-- experience -->
+    <section class="section" id="experience">
+      <div class="section-label">01 — EXPERIENCE</div>
+      <h2 class="section-title">Where I've worked</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-dot timeline-dot--active"></span>
+          <div class="timeline-head">
+            <h3 class="timeline-role">Senior Full Stack Developer · <span class="timeline-company">Qubika</span></h3>
+            <span class="timeline-date">JUN 2023 — PRESENT</span>
+          </div>
+          <p class="timeline-desc">Backend .NET services for a U.S. identity &amp; security platform (Pluralsight) —
+            authentication &amp; authorization flows. Led a zero-downtime Cassandra→PostgreSQL migration and built
+            background task-processing systems for internal automation.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">.NET</span><span class="tech-tag">C#</span><span class="tech-tag">AWS</span>
+            <span class="tech-tag">PostgreSQL</span><span class="tech-tag">Docker</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-head">
+            <h3 class="timeline-role">Full Stack Developer · <span class="timeline-company">Twarz</span></h3>
+            <span class="timeline-date">2023</span>
+          </div>
+          <p class="timeline-desc">Built a facial-recognition application with Blazor &amp; .NET Core. Integrated
+            Facetec into identity-verification workflows, developed REST APIs for authentication, and deployed on
+            Microsoft Azure.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">.NET Core</span><span class="tech-tag">Blazor</span><span class="tech-tag">Azure</span>
+            <span class="tech-tag">Facetec</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-head">
+            <h3 class="timeline-role">Back End Developer · <span class="timeline-company">Futuros y Opciones</span></h3>
+            <span class="timeline-date">JUN 2021 — JUN 2023</span>
+          </div>
+          <p class="timeline-desc">Designed REST APIs in .NET Core for the logistics domain of an agribusiness
+            platform. Technical lead for the Logistics module — implemented Azure Functions for event-driven
+            processes and optimized SQL Server queries, resolving recurring production issues.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">.NET Core</span><span class="tech-tag">ASP.NET Web API</span>
+            <span class="tech-tag">SQL Server</span><span class="tech-tag">Azure</span><span class="tech-tag">Microservices</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-head">
+            <h3 class="timeline-role">Full Stack Developer · <span class="timeline-company">Algoritmo Soft House</span></h3>
+            <span class="timeline-date">APR 2020 — JUN 2021</span>
+          </div>
+          <p class="timeline-desc">Developed clinical-history and appointment-scheduling modules. Built Windows Forms
+            applications with .NET Framework &amp; VB.NET, created Crystal Reports, and maintained legacy systems on
+            Oracle Database.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">.NET Framework</span><span class="tech-tag">WinForms</span>
+            <span class="tech-tag">Oracle</span><span class="tech-tag">Crystal Reports</span>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- skills -->
+    <section class="section" id="skills">
+      <div class="section-label">02 — STACK</div>
+      <h2 class="section-title">Skills &amp; tools</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-group-title">// languages &amp; frameworks</div>
+          <div class="skill-chips">
+            <span class="skill-chip">C#</span><span class="skill-chip">.NET Core</span>
+            <span class="skill-chip">.NET Framework</span><span class="skill-chip">Blazor</span>
+            <span class="skill-chip">ASP.NET Web API</span><span class="skill-chip">WinForms</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">// data</div>
+          <div class="skill-chips">
+            <span class="skill-chip">SQL Server</span><span class="skill-chip">EF Core</span>
+            <span class="skill-chip">LINQ</span><span class="skill-chip">PostgreSQL</span>
+            <span class="skill-chip">MongoDB</span><span class="skill-chip">Oracle</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">// cloud &amp; devops</div>
+          <div class="skill-chips">
+            <span class="skill-chip">Azure</span><span class="skill-chip">Azure DevOps</span>
+            <span class="skill-chip">AWS</span><span class="skill-chip">Docker</span>
+            <span class="skill-chip">CI/CD</span><span class="skill-chip">Git</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">// practices</div>
+          <div class="skill-chips">
+            <span class="skill-chip">REST APIs</span><span class="skill-chip">Microservices</span>
+            <span class="skill-chip">Unit Testing</span><span class="skill-chip">Scrum</span>
+            <span class="skill-chip">Design Patterns</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="section" id="projects">
+      <div class="section-label">03 — PROJECTS</div>
+      <h2 class="section-title">Selected work</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-image"><img src="./assets/img/market.png" alt="Market screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <div class="project-head">
+              <h3 class="project-title">Market</h3>
+              <span class="badge-private">Private</span>
+            </div>
+            <p class="project-desc">Web-based sales management for small businesses — products, inventory, purchases,
+              customers &amp; sales across multiple locations.</p>
+            <div class="project-tech"><span>.NET</span>·<span>Multi-tenant</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="./assets/img/dkp_sys.png" alt="DkpSys screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <div class="project-head">
+              <h3 class="project-title">DkpSys</h3>
+              <span class="badge-private">Private</span>
+            </div>
+            <p class="project-desc">DKP-points manager for MMORPG guilds — events, item auctions &amp; member point
+              tracking.</p>
+            <div class="project-tech"><span>.NET</span>·<span>Web app</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="./assets/img/ezStock.png" alt="EzStock screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <div class="project-head">
+              <h3 class="project-title">EzStock</h3>
+              <a href="https://github.com/teogiampietro/EzStock" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+            </div>
+            <p class="project-desc">Inventory &amp; stock management system built on .NET Core with SQL Server.</p>
+            <div class="project-tech"><span>.NET Core</span>·<span>C#</span>·<span>SQL Server</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="./assets/img/secureSilo.png" alt="SecureSilo screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <div class="project-head">
+              <h3 class="project-title">SecureSilo</h3>
+              <a href="https://github.com/teogiampietro/SecureSilo" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+            </div>
+            <p class="project-desc">Grain-silo monitoring web app with a .NET Core backend and Blazor / Bootstrap UI.</p>
+            <div class="project-tech"><span>.NET Core</span>·<span>Blazor</span>·<span>HTML/CSS</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="./assets/img/factorySys.png" alt="FactorySys screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <div class="project-head">
+              <h3 class="project-title">FactorySys</h3>
+              <a href="https://github.com/teogiampietro/FactorySys" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+            </div>
+            <p class="project-desc">Manufacturing management system handling production data on SQL Server.</p>
+            <div class="project-tech"><span>C#</span>·<span>Visual Studio</span>·<span>SQL Server</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="./assets/img/endpointCreator.jpg" alt="EndpointCreator screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <div class="project-head">
+              <h3 class="project-title">EndpointCreator</h3>
+              <a href="https://github.com/teogiampietro/EndpointTemplateCreator" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+            </div>
+            <p class="project-desc">Visual Studio template generator that scaffolds REST endpoints from a definition.</p>
+            <div class="project-tech"><span>C#</span>·<span>Visual Studio</span></div>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+
+    <!-- education + certifications -->
+    <section class="section split-grid">
+      <div>
+        <div class="section-label">04 — EDUCATION</div>
+        <h2 class="section-title section-title--sm">Education</h2>
+        <div class="edu-card">
+          <h3 class="edu-title">B.Sc. Systems Engineering</h3>
+          <div class="edu-school">Universidad Abierta Interamericana</div>
+          <div class="edu-date">2015 — 2020</div>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">05 — CERTIFICATIONS</div>
+        <h2 class="section-title section-title--sm">Certifications</h2>
+        <div class="certs-list">
+          <div class="cert-row"><span class="cert-name">Azure DevOps Solutions (AZ-400)</span><span class="cert-meta">IT College · 2024</span></div>
+          <div class="cert-row"><span class="cert-name">Web APIs with ASP.NET Core (.NET 6)</span><span class="cert-meta">LinkedIn · 2022</span></div>
+          <div class="cert-row"><span class="cert-name">Advanced C#: Language Features</span><span class="cert-meta">LinkedIn · 2022</span></div>
+          <div class="cert-row"><span class="cert-name">Software Architecture: Dev → Architect</span><span class="cert-meta">LinkedIn · 2022</span></div>
+          <div class="cert-row"><span class="cert-name">Programming Foundations: Design Patterns</span><span class="cert-meta">LinkedIn · 2022</span></div>
+          <div class="cert-row"><span class="cert-name">Azure Fundamentals (AZ-900)</span><span class="cert-meta">IT College · 2021</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="section contact-section" id="contact">
+      <div class="section-label">06 — CONTACT</div>
+      <h2 class="contact-title">Let's build something.</h2>
+      <a href="mailto:teogiampietro@gmail.com" class="contact-email">teogiampietro@gmail.com</a>
+      <div class="contact-actions">
+        <a href="https://www.linkedin.com/in/teogiampietro/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+        <a href="https://github.com/teogiampietro" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <a href="https://api.whatsapp.com/send?phone=543469694830" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">© 2026 Teo Giampietro — built with .NET &amp; caffeine</footer>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
